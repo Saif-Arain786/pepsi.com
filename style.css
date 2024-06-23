@@ -1,0 +1,301 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+@media only screen and (max-width:576px) {
+
+  .video1,
+  .img3,
+  .cherryimg,
+  .fleximgchild,
+  .forresponsive,
+  .slidimg {
+    width: 100%;
+  }
+  .forresponsive{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .btn3 {
+    display: inline-block;
+    height: 35px;
+    width: 55px;
+  }
+}
+
+@media only screen and (max-width:606px) {
+
+  .video1,
+  .img3,
+  .cherryimg,
+  .fleximgchild {
+    width: 100%;
+  }
+
+  .btn3 {
+    display: inline-block;
+    height: 35px;
+    width: 55px;
+  }
+}
+
+@media only screen and (max-width:700px) {
+
+  .video1,
+  .img3,
+  .cherryimg,
+  .fleximgchild {
+    width: 100%;
+  }
+
+  .btn3 {
+    display: inline-block;
+    height: 70px;
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width:1000px) {
+
+  .video1,
+  .img3,
+  .cherryimg,
+  .fleximgchild {
+    width: 100%;
+  }
+
+  .btn3 {
+    display: inline-block;
+    height: 40px;
+    width: 90px;
+  }
+}
+
+@media only screen and (max-width:1200px) {
+
+  .video1,
+  .img3,
+  .cherryimg,
+  .fleximgchild {
+    width: 100%;
+  }
+
+  .btn3 {
+    display: inline-block;
+    height: 50px;
+    width: 100px;
+  }
+}
+
+@media only screen and (min-width:1000px) {
+
+  .video1,
+  .img3,
+  .cherryimg,
+  .fleximgchild {
+    width: 100%;
+  }
+
+  .btn3 {
+    display: inline-block;
+    height: 70px;
+    width: 150px;
+  }
+}
+
+/* @media only screen and (min-width:1200px){
+  .box{
+    display: none;
+  }
+} */
+@media only screen and (orientation:landscape) {
+
+  .video1,
+  .img3 {
+    width: 100%;
+  }
+
+  .btn3 {
+    display: inline-block;
+    height: 50px;
+    width: 100px;
+  }
+}
+
+.img3 {
+  /* position: absolute;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+
+
+}
+
+.box {
+  position: relative;
+  top: 0;
+  width: 100%;
+
+
+}
+
+.btn4 {
+  height: 70px;
+  width: 150px;
+  color: aliceblue;
+  position: absolute;
+  bottom: 10px;
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.btn3 {
+  border-radius: 20px;
+}
+
+.img5container {
+  overflow: hidden;
+  height: 900px;
+  position: relative;
+
+}
+
+.fleximgchild {
+  position: absolute;
+}
+
+.imageses {
+  min-height: 1000px;
+  max-height: 700px;
+
+  background-image: url('./assets/cherry second img.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(150%);
+}
+
+.texts {
+  text-align: center;
+  color: beige;
+  font-size: xx-large;
+  padding-top: 80px;
+}
+
+h1 {
+  font-size: xxx-large;
+}
+
+.fleximgchild {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 120px;
+  /* flex-grow: 1; */
+  /* scale: 1.5; */
+}
+
+.hoverproperty:hover {
+  box-shadow: 5px 5px 100px #0025ff;
+}
+
+.childimg6cont {
+  scale: 1.2;
+
+}
+
+.btn7 {
+  text-align: center;
+  padding-top: 40px;
+  color: rgb(7, 236, 57);
+}
+
+.btn8:hover {
+  color: black;
+  background-color: #0025ff;
+  box-sizing: 30px;
+}
+
+.med {
+  position: sticky !important;
+  top: 0px !important;
+  z-index: 1;
+}
+
+.boxes7 {
+  background-color: black;
+  color: white;
+  margin: 0px;
+  padding-top: 45px;
+  text-align: center;
+
+  /* min-height: 400px;
+  max-height: 300px; */
+}
+
+.boxes7>h1 {
+  margin: 0px;
+}
+
+.clusterimages {
+  height: 200px;
+  width: 230px;
+  /* transition: transform 0.5s ease-in-out; */
+  backface-visibility: hidden;
+
+
+}
+
+.clusterimages:hover,.btn1:hover {
+box-shadow:10px 20px 100px #f5f6f9 ;
+}
+
+#rotate {
+  transition: rotateX(-60deg) scaleY(-1);
+
+}
+
+#rotate:hover {
+  width: 500px;
+
+}
+
+.images12flex {
+  padding-top: 45px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 70px;
+
+}
+
+#colorblue {
+  color: #0025ff;
+  font-size: xxx-large;
+  font-weight: bolder;
+}
+.footermain{
+  background-color:#0025ff;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* align-items: center; */
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.heading{
+  font-weight: bolder;
+}
+.icons{
+  text-align: center  ;
+}
